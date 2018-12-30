@@ -28,7 +28,7 @@ class Roleinfo extends Command {
       .addField('Color', role.hexColor || 'None', true)
       .addField('Creation Date', moment(role.createdAt), true)
       .addField('Hoisted', role.hoist ? 'Yes' : 'No', true)
-      .addField('Raw Position', role.rawPossition, true)
+      .addField('Raw Position', role.rawPosition, true)
       .addField('Mentionable', role.mentionable ? 'Yes' : 'No', true)
     //   .addField('❯ Permissions', allPermissions);
     return message.channel.send(roleInfo);
