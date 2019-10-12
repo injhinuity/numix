@@ -1,2 +1,2 @@
 # numix
-Numix discord bot repo
+ This bot most likely be depreceated and won't function properly.
